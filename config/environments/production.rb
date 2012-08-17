@@ -74,7 +74,7 @@ Gitlab::Application.configure do
 	config.action_mailer.smtp_settings = {
 	  :address              => "smtp.lifetimetech.vn",
 	  :port                 => 25,
-	  :domain               => 'mail.lifetimetech.vn',
+	  :domain               => 'lifetimetech.vn',
 	  :user_name            => 'gitlab@lifetimetech.vn',
 	  :password             => 'gitlab123',
 	  :authentication       =>  :plain,
