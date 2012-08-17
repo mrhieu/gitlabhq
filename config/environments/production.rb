@@ -72,10 +72,10 @@ Gitlab::Application.configure do
 	config.action_mailer.raise_delivery_errors = true
 
 	config.action_mailer.smtp_settings = {
-	  :address              => "smtp.lifetimetech.vn",
-	  :port                 => 25,
-	  :domain               => 'lifetimetech.vn',
-	  :user_name            => 'gitlab@lifetimetech.vn',
+	  :address              => "smtp.gmail.com",
+	  :port                 => 587,
+	  :domain               => 'gmail.com',
+	  :user_name            => 'gitlab.lifetimetech@gmail.com',
 	  :password             => 'gitlab123',
 	  :authentication       =>  :plain,
 	  :enable_starttls_auto => true
